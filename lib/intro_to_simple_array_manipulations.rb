@@ -16,5 +16,5 @@ end
 
 def pop_with_args(chars_in_game_of_thrones)
   chars_in_game_of_thrones = @chars_in_game_of_thrones
-  chars_arya_killed = @chars_in_game_of_thrones.pop(@chars_in_game_of_thrones.pop)
+  chars_arya_killed = (@chars_in_game_of_thrones.pop).pop
 end
