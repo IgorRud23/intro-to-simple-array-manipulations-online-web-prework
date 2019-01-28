@@ -45,5 +45,5 @@ end
 
 def using_delete(instructors, steven)
   steven = "Steven"
-  instructors.delete(Steven)
+  instructors.delete(steven)
 end
